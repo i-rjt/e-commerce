@@ -1,0 +1,30 @@
+legend{
+    text-align: center;
+    margin: auto
+}
+
+h1{
+    text-align: center;
+}
+
+fieldset{
+    padding: 20px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+}
+
+input{
+    margin: 10%;
+    padding: 10%;
+    border-radius: 16px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+   
+    margin: auto;
+
+}
