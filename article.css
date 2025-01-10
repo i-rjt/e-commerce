@@ -1,13 +1,12 @@
-#article-page{
-    height: 100vh;
+/* #article-page{
+    height: 100%;
     margin: 0 auto;
     padding: 10px auto;
-    /* border: 2px solid red; */
     width: 60%;
     font-family: "Roboto", serif;
     gap: 10px;
-}
-
+} 
+ 
 .section1{
     width: 100%;
     height: 1vh;
@@ -21,4 +20,4 @@
 
 .section2{
     width: 100%;
-}
+} */
