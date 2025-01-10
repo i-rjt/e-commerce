@@ -1,7 +1,109 @@
-.flex{
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Flow+Circular&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.m-1{
+    margin: 1px;
 }
 
-.border{
-    border: 2px solid red;
+.p-15{
+    padding: 15px;
+}
+
+.m-15{
+    margin: 15px;
+}
+
+
+
+.dropButton{
+    background: transparent;
+    border: none;
+    max-height: 35px;
+    max-width: 55px;
+    font-family: "Berkshire Swash", serif;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dropButton #home{
+    text-decoration: none;
+    color: black;
+}
+
+
+.drop{
+    display: inline-block;
+    /* background-color: var(--fire); */
+    height: auto;
+    width: auto;
+}
+
+.items{
+    display: none;
+    min-width: 100px;
+    position: absolute;
+}
+
+
+.items a{
+    display: block;
+    background-color: var(--pirate);
+    position: relative;
+    color: black;
+    padding: 13px 15px;
+    box-shadow: 15px 15px 10px 1px hsl(34, 74%, 35%);
+    cursor: pointer;
+}
+
+
+.items  a:hover{
+    background-color: var(--fire);
+}
+
+.drop:hover .items{
+    display: block;
+}
+
+.dropButton:hover{
+    background-color: var(--fire);
+    border-radius: 9px;
+    border: 1px;
+}
+
+
+
+.round{
+    border-radius: 8px;
+}
+
+
+.logoImg{
+    display: flex;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+ul{
+    list-style: none;
+}
+
+#sub{
+    background: linear-gradient(to right,var(--yellow), hsl(258,66%,23%));
+    border-radius: 6px;
+    height: 2em;
+    border: none;
+}
+
+#sub:hover{
+    border: 1px solid;
+    color: white;
+}
+
+#email{
+    height: 1.5em;
+}
+
+#newsletter{
+    font-size: 13px;
 }

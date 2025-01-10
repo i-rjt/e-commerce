@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>srcbay</title>
+    <style>
+        @import url('./index.css');
+        @import url('./utility.css');
+        @import url('./article.css');
+    </style>
+    <script src="main.js" defer></script>
+    <script src="article.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div id="h-left m-1">
+            <img class="logo">
+        </div>
+        <div id="h-center m-1">
+            <div class="drop p-15 m-1">
+                <button class="dropButton"><a href="#" id="home">Home</a></button>
+                <div class="items">
+                    <a id="article">Articles</a>
+                    <a id="resource">Resources</a>
+                    <a id="roadmap">RoadMaps</a>
+                    <a id="about">About</a>
+                </div>
+            </div>
+        </div>
+        <div id="h-right m-1">
+            <label class="mode">
+                <input type="checkbox">
+                <span class="switch round"></span>
+            </label>
+        </div>
+    </header>
+    <main id="article-page">
+       
+    </main>
+    <footer>
+        <div class="section1 m-15">
+            <div class="footImg"><img class="logo img2 ">
+                <h4>Srcbay</h4>
+            </div>
+            <p>We teach people how to build amazing sh*t.
+            </p>
+        </div>
+        <div class="section2 m-15">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="section3 m-15">
+            <ul>
+                <li>Resources</li>
+                <li>Quiz</li>
+            </ul>
+        </div>
+        <div class="section4 ">
+            <ul>
+                <li><label for="email"><input type="email" id="email" placeholder="Enter your email"><button
+                            type="submit" id="sub">Subscribe</button></label></li>
+                <li>
+                    <blockquote id="newsletter">Free resources every week</blockquote>
+                </li>
+                <li></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
